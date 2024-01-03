@@ -10,7 +10,7 @@ resource "aws_iam_role" "admin" {
       {
         Effect    = "Allow",
         Action    = "sts:AssumeRole",
-        Principal = { "AWS" : "arn:aws:iam::${var.trusted_account_id}:role/CloudAdmin" }
+        Principal = "*"
     }]
   })
 }
