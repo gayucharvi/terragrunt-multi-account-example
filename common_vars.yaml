@@ -1,5 +1,5 @@
 terraform_state_bucket_prefix: s3prebuck
-root_account_id: "889796695136"
+root_account_id: ""
 aws_organization_unit_id: "ou-phjv-cl7v4tdl"
 environments:
   development:
